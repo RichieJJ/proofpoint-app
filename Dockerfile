@@ -16,4 +16,4 @@ RUN git clone https://github.com/streamlit/streamlit-example.git .
 
 RUN pip3 install -r requirements.txt
 
-CMD [ "streamlit", "run", "demo.py" "--server.port=8501", "--server.address=0.0.0.0"]
+CMD [ "streamlit", "run", "demo.py" "--server.port=8501", "--server.address=52.91.200.84" ]
